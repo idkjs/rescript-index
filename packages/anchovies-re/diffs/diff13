@@ -1,0 +1,16 @@
+5c5
+< function rem_anchovy$prime(_param) {
+---
+> function rem_anchovy(_param) {
+20c20
+<                     rem_anchovy$prime(match[1])
+---
+>                     rem_anchovy(match[1])
+27c27
+<                     rem_anchovy$prime(match[1])
+---
+>                     rem_anchovy(match[1])
+35c35
+< exports.rem_anchovy$prime = rem_anchovy$prime;
+---
+> exports.rem_anchovy = rem_anchovy;
